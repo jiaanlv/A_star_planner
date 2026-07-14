@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lja/project/A_star_planner/src/a_star.cpp
+
+/home/lja/project/A_star_planner/src/main.cpp
+iostream
+-
+
+/home/lja/project/A_star_planner/src/obstacle_map.cpp
+
