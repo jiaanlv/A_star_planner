@@ -17,7 +17,7 @@ class GridMap
     explicit GridMap(const Eigen::MatrixXi& grid);
     
     //判断坐标(x,y)是否可通行
-    bool isfree(int x, int y) const;
+    bool isFree(int x, int y) const;
     int rows() const;
     int cols() const;
 

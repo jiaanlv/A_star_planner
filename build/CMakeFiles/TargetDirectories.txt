@@ -1,4 +1,3 @@
 /home/lja/project/A_star_planner/build/CMakeFiles/edit_cache.dir
-/home/lja/project/A_star_planner/build/CMakeFiles/obstacle_map.dir
 /home/lja/project/A_star_planner/build/CMakeFiles/rebuild_cache.dir
 /home/lja/project/A_star_planner/build/CMakeFiles/a_star_demo.dir

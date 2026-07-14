@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named obstacle_map
-
-# Build rule for target.
-obstacle_map: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 obstacle_map
-.PHONY : obstacle_map
-
-# fast build rule for target.
-obstacle_map/fast:
-	$(MAKE) -f CMakeFiles/obstacle_map.dir/build.make CMakeFiles/obstacle_map.dir/build
-.PHONY : obstacle_map/fast
-
-#=============================================================================
 # Target rules for targets named a_star_demo
 
 # Build rule for target.
@@ -196,7 +183,6 @@ src/obstacle_map.o: src/obstacle_map.cpp.o
 
 # target to build an object file
 src/obstacle_map.cpp.o:
-	$(MAKE) -f CMakeFiles/obstacle_map.dir/build.make CMakeFiles/obstacle_map.dir/src/obstacle_map.cpp.o
 	$(MAKE) -f CMakeFiles/a_star_demo.dir/build.make CMakeFiles/a_star_demo.dir/src/obstacle_map.cpp.o
 .PHONY : src/obstacle_map.cpp.o
 
@@ -206,7 +192,6 @@ src/obstacle_map.i: src/obstacle_map.cpp.i
 
 # target to preprocess a source file
 src/obstacle_map.cpp.i:
-	$(MAKE) -f CMakeFiles/obstacle_map.dir/build.make CMakeFiles/obstacle_map.dir/src/obstacle_map.cpp.i
 	$(MAKE) -f CMakeFiles/a_star_demo.dir/build.make CMakeFiles/a_star_demo.dir/src/obstacle_map.cpp.i
 .PHONY : src/obstacle_map.cpp.i
 
@@ -216,7 +201,6 @@ src/obstacle_map.s: src/obstacle_map.cpp.s
 
 # target to generate assembly for a file
 src/obstacle_map.cpp.s:
-	$(MAKE) -f CMakeFiles/obstacle_map.dir/build.make CMakeFiles/obstacle_map.dir/src/obstacle_map.cpp.s
 	$(MAKE) -f CMakeFiles/a_star_demo.dir/build.make CMakeFiles/a_star_demo.dir/src/obstacle_map.cpp.s
 .PHONY : src/obstacle_map.cpp.s
 
@@ -227,7 +211,6 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... obstacle_map"
 	@echo "... rebuild_cache"
 	@echo "... a_star_demo"
 	@echo "... src/a_star.o"

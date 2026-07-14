@@ -109,7 +109,6 @@ a_star_demo: CMakeFiles/a_star_demo.dir/src/main.cpp.o
 a_star_demo: CMakeFiles/a_star_demo.dir/src/a_star.cpp.o
 a_star_demo: CMakeFiles/a_star_demo.dir/src/obstacle_map.cpp.o
 a_star_demo: CMakeFiles/a_star_demo.dir/build.make
-a_star_demo: libobstacle_map.a
 a_star_demo: CMakeFiles/a_star_demo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lja/project/A_star_planner/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable a_star_demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/a_star_demo.dir/link.txt --verbose=$(VERBOSE)
