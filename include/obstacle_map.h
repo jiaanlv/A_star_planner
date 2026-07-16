@@ -8,7 +8,7 @@ class GridMap
 {
     private:
     Eigen::MatrixXi grid_;
-    int row_ = 0;
+    int rows_ = 0;
     int cols_ = 0;
 
     public:
